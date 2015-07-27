@@ -1,0 +1,38 @@
+[user]
+  name = Vinh Tran
+  email = vinh_tran@brown.edu
+[alias]
+  ls = branch
+  cd = checkout
+  create = !grb create
+  del = !grb rm
+  del-origin = push origin --delete
+  branhc = branch
+  p = push
+  pus = push
+  pul = pull
+  a = add -A
+  s = status -sb
+  stats = status
+  continue = rebase --continue
+  c = commit
+  ci = commit -v
+  co = checkout
+  getpr = "!sh -c 'git fetch origin pull/$0/head:pr-$0 && git co pr-$0'"
+  pr = !hub pull-request
+  rebase-origin = !git fetch origin && git rebase origin/master
+  ma = checkout master
+  mas = checkout master
+  master = checkout master
+  squash-origin = !git rebase -i origin/master
+[color]
+  diff = auto
+  ui = auto
+[core]
+  editor = vim
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[github]
+  user = vqtran
