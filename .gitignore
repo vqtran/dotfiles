@@ -5,4 +5,4 @@
 !.tmux.conf
 !.gitconfig
 !.conkyrc
-!config.fish
+!.config/fish/config.fish
