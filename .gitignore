@@ -1,0 +1,8 @@
+*
+!.gitignore
+!.bashrc
+!.vimrc
+!.tmux.conf
+!.gitconfig
+!.conkyrc
+!config.fish
